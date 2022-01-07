@@ -1,7 +1,7 @@
 #main{
 	background-color: #f7f7f5;
 }
-/* phim hay*/
+/* phim hay-----------------------------------------------------------*/
 .menu_side {
 			text-decoration: none;
 			padding: 10px 30px 10px 30px;
@@ -34,14 +34,20 @@
 	font-size: 22px;
 	padding: 0px 0px 0px 15px;
 }
-/*tin xem nhieu*/
+/*tin xem nhieu-------------------------------------------------------------*/
 .yok {
-	color: #34e810;
+	color: #5c5749;
 	text-decoration: none;
+	font-weight: bold;
 }
 
 #haha{
 	color: #f00cdd;
+	text-align: center;
+	font-size: 25px;
+	margin: 0;
+	padding: 30px;
+	background-color: #ffe08a;
 	}
 div > p > a:hover{
 		color: #f00c0c;
@@ -50,9 +56,12 @@ div > p > a:hover{
 
 #tinmoi_style{
 		color: #f08d0c;
+		text-align: center;
+		font-size: 35px;
 	}
 	.color_other{
 		color: #860cf0;
+		font-size: 30px;
 	}
 
 .ii:hover{
@@ -72,7 +81,65 @@ div > p > a:hover{
 #font_side{
 	font-size: 120%;
 }
-/*trang chu*/
+#flex_container2{
+	display: flex;
+	flex-wrap: nowrap;
+}
+#float_left{
+	flex: 30%;
+	padding: 15px;
+	background-color: #ebe6f5;
+}
+#float_right{
+	flex: 70%;
+	padding: 15px;
+	background-color: #cef0e4;
+}
+.item_news{
+	flex: 33%;
+	text-align: center;
+}
+.video_news{
+	max-width: 80%;
+	padding: 15px;
+}
+#flex_container3{
+	display: flex;
+	flex-wrap: wrap;
+}
+@media(max-width: 1084px){
+	#flex_container2{
+		flex-wrap: wrap;
+	}
+	#float_right{
+		flex: 100%;
+	}
+	#float_right{
+		flex: 100%;
+	}
+}
+@media(max-widthL: 750px){
+	.item_news{
+		flex: 50%;
+	}
+	#flex_container3{
+		flex-wrap: wrap;
+	}
+}
+#news_title{
+	text-align: center;
+	font-size: 30px;
+	color: red;
+	font-weight: bold;
+}
+	
+.title_news{
+	color: red;
+	padding: 5px;
+	text-align: center;
+	
+}
+/*trang chu--------------------------------------------------------------*/
 nav{
 	text-align: center;
 	background-color: #2d454d;
@@ -157,6 +224,18 @@ footer{
 	text-align: left;
 	}
 	
+}
+
+nav a:link{
+	color: white;
+}
+nav a:active{
+	font-weight: bold;
+	background-color: red;
+	color: blue;
+}
+nav a:visited{
+	text-decoration: underline;
 }
 
 
