@@ -14,7 +14,6 @@
 
 .paraghap1 {
 			width: 100%;
-			
 		}
 .side_table{
 	padding: 20px;
@@ -32,7 +31,13 @@
 #para{
 	text-align: left;
 	font-size: 22px;
-	padding: 0px 0px 0px 15px;
+	padding: 0px 15px 0px 15px;
+	text-align: justify;
+
+}
+#para:hover{
+	color: blue;
+	font-weight: bold;
 }
 /*tin xem nhieu-------------------------------------------------------------*/
 .yok {
@@ -52,7 +57,12 @@
 div > p > a:hover{
 		color: #f00c0c;
 		}
-		/*tin moi*/
+	#vip1{
+		background-color: #ede0cc;
+	}
+
+
+		/*tin moi-------------------*/
 
 #tinmoi_style{
 		color: #f08d0c;
@@ -74,7 +84,9 @@ div > p > a:hover{
 	padding: 14px;
 }
 
-
+#new_vip{
+	background-color: #eef5df;
+}
 #MyInfo_style{
 	color: #00f539;
 }
@@ -139,6 +151,14 @@ div > p > a:hover{
 	text-align: center;
 	
 }
+/*hoa dep---------------------------------------------------------*/
+#hoa_yeu{
+	text-align: center;
+	color: red;
+	background-color: #f4b8f5;
+	margin: -1px;
+	padding: 15px;
+}
 /*trang chu--------------------------------------------------------------*/
 nav{
 	text-align: center;
@@ -167,6 +187,7 @@ nav > a:hover{
 	margin: 0;
 	font-size: 50px;
 	font-weight: bold;
+	text-shadow: 2px 2px 5px;
 }
 
 footer{
@@ -226,15 +247,15 @@ footer{
 	
 }
 
-nav a:link{
+nav > a:link{
 	color: white;
 }
-nav a:active{
+nav > a:active{
 	font-weight: bold;
 	background-color: red;
 	color: blue;
 }
-nav a:visited{
+nav > a:visited{
 	text-decoration: underline;
 }
 
